@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4aba34cd69646e8856ef9aa6e4d655c5",
+    "content-hash": "e751b91e7e70d6c6dad692174db9140b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1045,6 +1045,50 @@
                 "uuid"
             ],
             "time": "2017-03-26T20:37:53+00:00"
+        },
+        {
+            "name": "styde/blade-pagination",
+            "version": "5.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StydeNet/blade-pagination.git",
+                "reference": "727b3c0f5028a610b90231162e4a1beed80b8807"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StydeNet/blade-pagination/zipball/727b3c0f5028a610b90231162e4a1beed80b8807",
+                "reference": "727b3c0f5028a610b90231162e4a1beed80b8807",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Styde\\BladePagination\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Duilio Palacios",
+                    "email": "admin@styde.net",
+                    "homepage": "http://styde.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel's pagination with Blade templating support",
+            "homepage": "http://github.com/StydeNet/blade-pagination",
+            "keywords": [
+                "blade",
+                "pagination"
+            ],
+            "time": "2015-08-02T02:23:34+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
